@@ -1,0 +1,460 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(images/reno4-slider-bg.png) no-repeat;
+    background-position: top;
+}
+
+.header {
+    display: flex;
+    /* position: sticky; */
+    /* top: 0%; */
+    padding: 10px 0 0 0;
+    /* background: white;
+    opacity: 0.96;
+    z-index: 1;
+    */
+}
+.header::after{
+    content: "";
+    background: whitesmoke;
+    top:0 ;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 0.1;
+} 
+
+
+nav {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+nav img {
+    height: 68px;
+    padding: 0 38vw 10px 1vw;
+}
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: 0 2vw 0 2vw;
+    text-decoration: none;
+}
+
+#bt{
+    box-sizing: border-box;
+    border: 1px solid;
+    width: 122px;
+    height: 36px;
+    margin: -8px 0px 0 0px;
+    background:#030430;;
+    color: white;
+}
+#bt:hover{
+    background: rgb(16 44 68);
+    font-size: medium;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main1{
+    height: 800px;
+    margin: auto;
+    /* background: url(./reno4-slider-bg.png) no-repeat; */
+    /* background-position: center; */
+}
+/* .main1::before{
+    content: "";
+    background: url(./reno4-slider-bg.png) no-repeat;
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+
+} */
+.home{
+    COLOR: rgb(17 63 63);
+    padding: 128px 429px 30px 230px;
+    font-size: 76px;
+    font-family: math;
+}
+
+#p1{
+    font-family: math;
+    color: #2f3a68;
+    width: 74vb;
+    padding: 8px 0px 50px 230px;
+}
+#bt1{
+    height: 44px;
+    border: 1px solid white;
+    color: rgb(48 48 105);
+    padding: 0;
+    margin: 0px 0px 0px 230px;
+    width: 27vb;
+    background: rgb(255, 217, 0);
+    /* font-size: 14px; */
+    font-weight: bold;
+    font-size: initial;
+}
+#hr1{
+    width: 55vb;
+    margin: 60px 0 15px 230px;
+}
+#p2{
+    font-family: system-ui;
+    margin: 5px 0px 0px 159px;
+    padding: 7px 0px 0px 70px;
+    /* font-size: large; */
+    color: #6c6c6c;
+}
+.home1{
+    background: url('images//reno4-home-homes-bg.png');
+    display: flex;
+}
+.home1 img{
+    margin: 60px 0 0 35vb;
+    width: 540px;
+    height: 515px;
+}
+.home1 div{
+    height: 522px;
+    width: 32vw;
+    background: #ffdb01db;
+    margin: 53px 0 0 0;
+}
+.home1 h3{
+    font-size: x-large;
+    padding: 0px 0px 38px;
+    height: 10vh;
+    width: 48vb;
+    margin: 57px 0px 36px 50px;
+    font-family: Comfortaa, Helvetica, Arial, sans-serif;
+    color: #1e5050;
+}
+.home1 p{
+    color: rgb(42 48 52);
+    /* font-size: large; */
+    margin: 0px 0 0 50px;
+    width: 26vw;
+    text-align: justify;
+    font-family: system-ui;
+}
+#bt2{
+    font-size: 17px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 10vw;
+    height: 43px;
+    margin: 20px 0px 0 48px;
+    background: #07072f;
+    color: white; 
+}
+#bt2:hover{
+    font-size: large;
+    cursor: pointer;
+    background: rgb(14 13 14);
+    color: white;
+    text-decoration: underline; 
+}
+#img1{
+    margin: -70px 0px 10px 240px;
+    height: 240px;
+    width: 260px;
+}
+.home2{
+    margin: 90px 0 15px 245px;
+}
+.home2 div h2{
+    color: #4c3d3d;
+    font-family: math;
+    font-size: 40px;
+}
+.h-2{
+    display: flex;
+}
+.h-2 img{
+    height: 28vh;
+    margin: 50px 0 10px 0;
+    padding: 0 100px 0 0;
+}
+.h-2 h3{
+    font-size: xx-large;
+    font-family: math;
+}
+.h-2 p{
+    color: #2a2a2b;
+    margin: 15px 0 14px 0;
+    font-size: 16px;
+    width: 22vw;
+    font-family: system-ui;
+}
+.h-2 h5{
+    font-family: math;
+    color: #6b6363;
+    font-size: 16px;
+}
+.home2 hr{
+    width: 70vw;
+    margin: 60px 0 0 0;
+}
+.h-3{
+    margin:  20px 0 0 30px;
+    display: flex;
+    justify-content: center;
+}
+.h-3 p{
+    font-family: math;
+    width: 25vw;
+    padding: 0 0 0 40px;
+    margin: 16px 0 0 90px;
+    font-size: large;
+    color: #644a4a;
+}
+#bt3{
+    font-size: 17px;
+    margin: 12px 0px 0 0px;
+    height: 6vh;
+    background: #ffbf21;
+    border: none;
+    box-sizing: border-box;
+    width: 8vw;
+    font-weight: bold;
+    color: black;
+}
+#bt3:hover{
+    cursor: pointer;
+    font-size: larger;
+    text-decoration: underline;
+    background: #fcc41ff7;
+}
+.home3{
+    background: aliceblue;
+}
+.home3 p{
+    font-family: sans-serif;
+    display: flex;
+    margin: 100px 0 55px 0px;
+    font-size: xx-large;
+    justify-content: center;
+}
+.i1{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.i1 img{
+    padding: 0 20px 0 20px;
+    
+}
+#radio{
+    display: flex;
+    justify-content: center;
+    margin: 9px 0px 10px 0px;
+}
+.redio{
+    margin: 0px 5px 0 5px;
+}
+#bt4{
+    width: 10vw;
+    color: #ddebf7;
+    font-size: initial;
+    margin: 5px 0px 0px 95vb;
+    padding: 10px 10px 10px 10px;
+        background: rgb(9 37 91);
+    border: none;
+}
+#bt4:hover{
+    background: darkblue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#p3{
+    font-family: system-ui;
+    color: #58587e;
+    margin: 5px 0 0 0vw;
+    font-size: large;
+}
+#p4{
+    font-family: system-ui;
+    color: #58587e;
+    margin: 0px 0 0 0vw;
+    font-size: large;
+}
+.home4{
+    margin: 80px 0 0 0;
+    display: flex;
+}
+#im2{
+    height: 100%;
+    width: 35%;
+    padding: 0 0 0 15vw;
+}
+.d1{
+    margin: 35px 0 0 50px;
+    padding: 0px 0vw 0 0;
+}
+.d1 h1{
+    padding: 2px 0 6vh 0;
+    width: 21vw;
+    color: rgb(14 30 38);
+    font-family: sans-serif;
+}
+#d2{
+    padding: 5px 0 0px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img2{
+    width: 2vw;
+    height: 4vh;
+}
+#img3{
+    width: 3vw;
+    height: 6vh;
+}
+#h4-1{
+    color: rgb(19 53 54);
+    font-size: large;
+    font-family: sans-serif;
+    padding: 0 3vw;
+    width: 7vw;
+
+}
+#h4-2{
+    color: rgb(19 53 54);
+    font-size: large;
+    font-family: sans-serif;
+    padding: 0 3vw;
+}
+/* #d2 img{
+    padding: 0px 10px 0 20px;
+    width: 4vw;
+    height: 6vh;
+} */
+.d1 p{
+    color: rgb(26 83 83);
+    font-family: math; 
+    font-size: 17px;
+    padding: 4vw 0 0 0;
+}
+/* .home4{
+    margin: 130px 0 0 0;
+}
+.home4 div{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.home4 img{
+    height: 100%;
+    width: 35%;
+    margin: 36px 0 0 15vw;
+}
+.home4 h1{
+    width: 28vw;
+    margin: 60px 0 0 4vw;
+}
+.d1{
+    padding: 185px 0px 0 0px;
+    margin: 5px 11px 0 -326px;
+}
+.d1 p{
+    margin: 117px 0px 0px -501px;
+} */
+.footer{
+    background: url('images/reno4-footer-bg.jpg');
+    padding: 1px 0 0 0 ;
+}
+.f1{
+    display: flex;
+    justify-content: center;
+    margin: 80px 0px 0px 15vw;
+}
+#ft1{
+    padding: 2px 100px 0 0px;
+    margin: 0 0 0 -310px;
+}
+#ft1 h4{
+    color: rgb(31 46 55);
+    font-family: math;
+    font-size: 23px;
+    padding: 0 0 10px 0px;
+}
+#ft1 p{
+    color: rgb(18 18 41);
+    font-family: math;
+    font-size: 17px;
+    padding: 0 0 15px 0px;
+}
+#ft2{
+    padding: 0 200px 0 0;
+}
+#ft2 h4{
+    color: rgb(31 46 55);
+    font-family: math;
+    font-size: 23px;
+    padding: 0 0 10px 0;
+}
+#ft2 a{
+    text-decoration: none;
+    color: rgb(18 18 41);
+    font-family: math;
+    font-size: 17px;
+}
+
+#ft3 h4{
+    color: rgb(31 46 55);
+    font-family: math;
+    font-size: 23px;
+    padding: 0 0 10px 0;
+}
+#ft3 h3{
+    color: rgb(31 46 55);
+    font-family: math;
+    font-size: 23px;
+    padding: 0 0 10px 0;
+}
+#ft3 p{
+    text-decoration: none;
+    color: rgb(18 18 41);
+    font-family: math;
+    font-size: 17px;
+}
+#ft3 a{
+    text-decoration: none;
+    color: rgb(18 18 41);
+    font-family: math;
+    font-size: 17px;
+}
+#f2{
+    /* background: url('reno4-footer-bg.jpg'); */
+    margin: 14vh 0 0 0;
+    padding: 0vb 0px 5vb 35vb;
+}
+#f2 p{
+    color: rgb(18 18 41);
+    font-family: math;
+    font-size: 17px;
+} 
+#f2 a{
+    text-decoration: none;
+    color: rgb(18 18 41);
+    font-family: math;
+    font-size: 17px;
+} 
